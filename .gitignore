@@ -10,3 +10,6 @@ target
 /web-app/plugins
 /web-app/WEB-INF/classes
 *.iml
+*.zip
+.classpath
+.project
