@@ -1,0 +1,95 @@
+2012-07-03 23:50:51,362 [Thread-12] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/antoniopagano/Projects/domain-utils/DomainUtilsGrailsPlugin.groovy: 54: expecting anything but ''\n''; got it anyway @ line 54, column 62.
+   ClassWrapper.fullName").list()
+                                 ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:359)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:136)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:107)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:160)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:843)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:548)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:524)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:501)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:283)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:197)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.refresh(DefaultGrailsPlugin.java:695)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.reloadPlugin(GrailsProjectWatcher.java:200)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.access$200(GrailsProjectWatcher.java:46)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$1.onChange(GrailsProjectWatcher.java:139)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.fireOnChange(DirectoryWatcher.java:162)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:144)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:163)
+2012-07-03 23:50:51,367 [Thread-12] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/antoniopagano/Projects/domain-utils/DomainUtilsGrailsPlugin.groovy: 54: expecting anything but ''\n''; got it anyway @ line 54, column 62.
+   ClassWrapper.fullName").list()
+                                 ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:359)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:136)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:107)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:160)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:843)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:548)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:524)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:501)
+2012-07-03 23:50:51,372 [Thread-12] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/antoniopagano/Projects/domain-utils/DomainUtilsGrailsPlugin.groovy: 54: expecting anything but ''\n''; got it anyway @ line 54, column 62.
+   ClassWrapper.fullName").list()
+                                 ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:359)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:136)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:107)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:160)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:843)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:548)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:524)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:501)
+2012-07-03 23:50:51,372 [Thread-12] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/antoniopagano/Projects/domain-utils/DomainUtilsGrailsPlugin.groovy: 54: expecting anything but ''\n''; got it anyway @ line 54, column 62.
+   ClassWrapper.fullName").list()
+                                 ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.ErrorCollector.addFatalError(ErrorCollector.java:149)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:119)
+	at org.codehaus.groovy.control.ErrorCollector.addError(ErrorCollector.java:131)
+	at org.codehaus.groovy.control.SourceUnit.addError(SourceUnit.java:359)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:136)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:107)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:236)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:160)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:843)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:548)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:524)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:501)

@@ -1,0 +1,13 @@
+Testsuite: UtilsDomainEmptyTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.323 sec
+------------- Standard Output ---------------
+--Output from firstShouldReturnNullOnEmpty--
+--Output from lastShouldReturnNullOnEmpty--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from firstShouldReturnNullOnEmpty--
+--Output from lastShouldReturnNullOnEmpty--
+------------- ---------------- ---------------
+
+Testcase: firstShouldReturnNullOnEmpty took 0.292 sec
+Testcase: lastShouldReturnNullOnEmpty took 0.006 sec

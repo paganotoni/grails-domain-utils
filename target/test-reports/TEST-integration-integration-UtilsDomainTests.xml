@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="antonio.pagano" name="UtilsDomainTests" tests="5" time="0.185" timestamp="2012-07-08T04:47:22">
+  <properties />
+  <testcase classname="UtilsDomainTests" name="updateAttributes" time="0.125" />
+  <testcase classname="UtilsDomainTests" name="updateAttribute" time="0.011" />
+  <testcase classname="UtilsDomainTests" name="firstMethodTest" time="0.013" />
+  <testcase classname="UtilsDomainTests" name="lastMethodTest" time="0.012" />
+  <testcase classname="UtilsDomainTests" name="updateLongAttribute" time="0.014" />
+  <system-out><![CDATA[--Output from updateAttributes--
+--Output from updateAttribute--
+--Output from firstMethodTest--
+--Output from lastMethodTest--
+--Output from updateLongAttribute--
+]]></system-out>
+  <system-err><![CDATA[--Output from updateAttributes--
+--Output from updateAttribute--
+--Output from firstMethodTest--
+--Output from lastMethodTest--
+--Output from updateLongAttribute--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+--Output from firstShouldReturnNullOnEmpty--
+--Output from lastShouldReturnNullOnEmpty--

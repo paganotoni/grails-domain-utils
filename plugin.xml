@@ -1,0 +1,30 @@
+<plugin name='domain-utils' version='1.0' grailsVersion='2.0 &gt; *'>
+  <author>Antonio PAgano</author>
+  <title>Domain Utils</title>
+  <description>This plugins adds some utility methods to domain classes, basically it adds first, last, updateAttributes and updateAttribute
+my idea is to add another methods that can help our grails experience to get better than it is.
+
+You can get the sourcecode at github. https://github.com/apaganobeleno/grails-domain-utils
+
+Also if you got some ideas let me comments, or issues there.
+</description>
+  <documentation>http://grails.org/plugin/domain-utils</documentation>
+  <type>DomainUtilsGrailsPlugin</type>
+  <resources>
+    <resource>domain.utils.TestsDomain</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='core' version='2.0 &gt; *' />
+    <plugin name='domainClass' version='2.0 &gt; *' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>
