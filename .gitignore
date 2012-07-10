@@ -13,3 +13,4 @@ target
 *.zip
 .classpath
 .project
+.DS_STORE
